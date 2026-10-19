@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0b0f17">
     <meta name="google-site-verification" content="gOJNJY-vylnSrDLOgy_FFUxGSGusxz_6lhqAaLkszj8" />
-    <meta name="description" content="Applications et simulateurs open source de fathzer, hébergés sur GitHub Pages.">
-    <title>Fathzer — Projets open source</title>
+    <meta name="description" content="Open source applications, simulators and libraries by fathzer. Web apps hosted on GitHub Pages.">
+    <title>Fathzer — Open source projects</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <header class="site-header">
-            <img src="avatar.jpg" alt="fathzer — squelette motard">
+            <img src="avatar.jpg" alt="fathzer — skeleton biker">
             <div>
                 <h1>Fathzer</h1>
-                <p class="tagline">Quelques applications et simulateurs open source, hébergés sur GitHub Pages.</p>
+                <p class="tagline">Open source applications, simulators and libraries. Web apps are hosted on GitHub Pages.</p>
             </div>
         </header>
 
+        <h2 class="section-title">Applications &amp; libraries</h2>
         <ul class="projects">
             <li class="project">
                 <h2>Mon Patrimoine</h2>
-                <p>Application gratuite de suivi de patrimoine : valeur nette estimée après prélèvements sociaux et impôts, historique des placements, euros constants (indices INSEE). Vos données restent dans votre espace de stockage cloud personnel.</p>
+                <p>A free wealth-tracking application: it estimates the net value of your assets after taxes, keeps a full history of your investments, and shows constant-euro values (INSEE price indices). Your data stays in your own cloud storage.</p>
+                <p><strong>Designed exclusively for users subject to French taxation</strong> — all calculations rely on French tax rules, and the app itself is in French.</p>
                 <div class="project-links">
                     <a class="app" href="https://fathzer.github.io/mon-patrimoine/">Application</a>
                     <a href="https://github.com/fathzer/mon-patrimoine">GitHub</a>
@@ -31,7 +33,7 @@
             </li>
             <li class="project">
                 <h2>Darts Simulator</h2>
-                <p>Simulateur de lancer de fléchettes : réglez la zone visée et la précision du tir, puis observez les impacts sur la cible, les statistiques et l'espérance de gain.</p>
+                <p>A dart throw simulator: pick a target zone and your throwing accuracy, then watch the darts land on the board, with running statistics and expected score.</p>
                 <div class="project-links">
                     <a class="app" href="https://fathzer.github.io/darts-simulator/">Application</a>
                     <a href="https://github.com/fathzer/darts-simulator">GitHub</a>
@@ -39,16 +41,42 @@
             </li>
             <li class="project">
                 <h2>Push Swap Simulator</h2>
-                <p>Visualisation interactive du problème push-swap : exécutez pas à pas des séquences d'opérations sur deux piles, déboguez et comparez deux solutions côte à côte.</p>
+                <p>An interactive visualizer for the push-swap problem: step through operation sequences on two stacks, debug them, and compare two solutions side by side.</p>
                 <div class="project-links">
                     <a class="app" href="https://fathzer.github.io/push-swap-simulator/">Application</a>
                     <a href="https://github.com/fathzer/push-swap-simulator">GitHub</a>
                 </div>
             </li>
+            <li class="project">
+                <h2>Javaluator</h2>
+                <p>A Java library that evaluates arithmetic expressions: variables, constants, functions, operators and parentheses. Published as <code>com.fathzer:javaluator</code>.</p>
+                <div class="project-links">
+                    <a class="app" href="https://central.sonatype.com/artifact/com.fathzer/javaluator">Maven Central</a>
+                    <a href="https://github.com/fathzer/javaluator">GitHub</a>
+                </div>
+            </li>
+        </ul>
+
+        <h2 class="section-title">Organizations</h2>
+        <ul class="projects">
+            <li class="project">
+                <h2>Yapbam</h2>
+                <p>The Yapbam organization — home of Yapbam, a free, cross-platform personal bank account manager, and its satellite tools.</p>
+                <div class="project-links">
+                    <a href="https://github.com/yapbam">GitHub</a>
+                </div>
+            </li>
+            <li class="project">
+                <h2>fathzer-games</h2>
+                <p>The fathzer-games organization — Java building blocks to implement game AIs: move generators, engines and related tools.</p>
+                <div class="project-links">
+                    <a href="https://github.com/fathzer-games">GitHub</a>
+                </div>
+            </li>
         </ul>
     </main>
     <footer>
-        <p>Logiciels libres — <a href="https://github.com/fathzer">github.com/fathzer</a></p>
+        <p>Free software — <a href="https://github.com/fathzer">github.com/fathzer</a></p>
     </footer>
 </body>
 </html>
